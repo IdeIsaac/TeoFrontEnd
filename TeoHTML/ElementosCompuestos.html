@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <title>Elementos compuestos</title>
+<head>
+
+<body>
+    <!--Entradas / inputs-->
+    <h1>Explicacion de elementos compuestos</h1>
+    <input type="text" id="Input1" name="Input1" value="valor1">
+    <br>
+
+    <!--Etiquetas para entrada-->
+    <label for="Input1">Ejemplo de input básico</label> <br><br>
+
+    <!--tipos de input-->
+    <label for="correo 1">Input de correo</label><br>
+    <input type="emal" id="correo1" name="psw1"><br><br>
+
+    <label for="psw1">Input de password</label><br>
+    <input type="password" id="psw1" name="psw1" minlength="8"><br><br>
+
+    <label for="tel1">Input de teléfono</label><br>
+    <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+    
+    <label for="url1">Input de URL</label><br>
+    <input type="url" id="url1" name="psw1"><br>
+
+    <h2>Input de selección multiple</h2><br>
+
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bicicleta">
+    <label for="vehicle1">Tengo una Bici</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Carro">
+    <label for="vehicle2">Tengo un carro</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Barco">
+    <label for="vehicle3">Tengo un Barco</label><br><br>
+
+    <label for="color1">Input de Color</label>
+    <input type="color" id="color1" name="color1"><br><br>
+
+    <label for="fecha1">Input de fecha</label><br>
+    <input type="date" id="fecha1" name="fecha1"><br>
+    <input type="datetime-local" id="fecha2" name="fecha2"><br>
+    <input type="week" id="fecha3" name="fecha3"><br>
+    <input type="time" id="fecha4" name="fecha4"><br>
+    <input type="month" id="fecha5" name="fecha5"><br><br>
+
+    <label for="archivo1">Tipo de archivos</label><br>
+    <input type="file" id="archivo1" name="archivo1"multiple ><br><br>
+
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript">JavaScript</label><br><br>
+
+    <label for="vol">Valúmen (entre 0 y 50)</label><br>
+    <input type="range" id="vol" name="vol" min="0" max="50"><br><br>
+
+    <input type="reset"><br>
+    <input type="submit"><br>
+
+    <input type="button" id="boton1" name="boton1" value="Botón 1" onclick="alert('Bienvenidos explorers')";><br><br>
+
+</body>
+</html>

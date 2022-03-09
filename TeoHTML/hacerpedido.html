@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=divice, initial-scale=1.0">
+    <title>Haga su pedido, hueritx</title>
+</head>
+
+<body>
+    <h1>Aquí se hace el pedido</h1>
+    <form action="pedido.js">
+        <label for="Nombre">Introduza su Nombre</label><br>
+        <input type="text" name="Nombre" id="Nombre" placeholder="Nombre">
+
+        <br><br>
+        
+        <label for="mesa">Tu mesa (el numero esta abajo)</label><br>
+        <input type="number" name="mesa" id="mesa" placeholder="4">
+
+
+        <p>¿Para comer Aquí o para llevar?</p>
+        <input type="radio" id="aqui" name="aquiollevar" value="aqui">
+        <label for="aqui">aqui</label><br>
+        <input type="radio" id="llevar" name="aquiollevar" value="llevar">
+        <label for="llevar">llevar</label><br>
+
+        <p>¿De que quiere los tacos?</p>
+        
+        <input type="checkbox" name="mecurio" id="mecurio">
+        <label for="mercurio">mercurio</label>
+        <input type="number" name="mercuriocuantos" id="mercuriocuantos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" name="Venus" id="Venus">
+        <label for="Venus">Venus</label>
+        <input type="number" name="Venuscuantos" id="Venuscuantos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" name="Tierra" id="Tierra">
+        <label for="Tierra">Tierra</label>
+        <input type="number" name="Tierracuantos" id="Tierracuantos" placeholder="¿Cuántos?"><br>
+
+        <p>¿Y para tomar?</p>
+        <select name="refrescos" id="refrescos">
+            <option value="Coca-cola">Coca-cola</option>
+            <option value="Coca-colaligth">Coca-cola light</option>
+            <option value="Fanta">Fanta de naranja</option>
+            <option value="Sidral">Sidral Modet</option>
+            <option value="Sangría">Sangría</option>
+            <option value="Sprite">Sprite</option>
+            <option value="Fresca">Fresca</option>
+            <option value="Aguadejamaica">Agua de jamaica</option>
+            <option value="Aguadehorchata">Agua de horchata</option>
+            <option value="BoingMango">Boing de Mango</option>
+            <option value="BoingGuayaba">Boing de Guayaba</option>
+        </select>
+
+        <br>
+        <br>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
