@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores</title>
+    <style>
+        /* Los selectores universales se usan para elegir la paquetes de tipos de letra */
+        *{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        body{
+            background-color: aqua;
+        }
+
+        p{
+            color: red;
+            text-align: right;
+        }
+
+        #titulo{
+            color: blue;
+            text-align: left;
+        }
+
+        .izquierda{
+            color: green;
+            text-align: left;
+        }
+
+        p.izquierda{
+            text-decoration: underline;
+        }
+
+        .contraste{
+            background-color: black;
+        }
+
+        h1, h2, p{
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+    
+    <h1> Header simple</h1>
+    <h2 id="titulo">Header con id titulo</h2>
+    <p>Parrafo simple</p>
+
+    <h3 class="izquierda">Prueba de header 3</h3>
+    <p class="iquierda">Parafro con clase</p>
+    <p clase="izquierda contraste">Parrafo con clase y contraste</p>
+</body>
